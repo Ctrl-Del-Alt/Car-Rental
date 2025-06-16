@@ -1,0 +1,26 @@
+{
+    "mercedes-v250": {
+        "name": "Mercedes V250",
+        "engineType": "2.0L Diesel",
+        "transmission": "7G-TRONIC PLUS Automatic",
+        "power": "190 hp",
+        "torque": "440 Nm",
+        "acceleration": "9.1s (0-100 km/h)",
+        "topSpeed": "205 km/h",
+        "features": [
+            "COMAND Online navigation",
+            "LED Intelligent Light System",
+            "Electric sliding doors",
+            "Climate control",
+            "Leather upholstery",
+            "360° camera"
+        ],
+        "images": [
+            "front.jpg",
+            "rear.jpg",
+            "interior-front.jpg",
+            "interior-rear.jpg",
+            "trunk.jpg"
+        ]
+    }
+}

@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MT TRANSPORTATIONS | DevG</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Forum&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <!-- Add this right after <body> -->
+    <div class="floating-menu">
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="float-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rent">Rent</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#terms">Terms</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <a href="#home">MT TRANSPORTATIONS</a>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#rent">Rent</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <!-- Remove the terms link -->
+        </div>
+        <div class="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="hero">
+                <div class="hero-background"></div>
+                <div class="hero-content">
+                    <p class="welcome-text">Welcome to Excellence</p>
+                    <h1>EXTRAORDINARY VEHICLES<br>EXCEPTIONAL SERVICE</h1>
+                    <p>Discover the pinnacle of automotive luxury</p>
+                    <a href="#rent" class="btn-luxury">BEGIN YOUR JOURNEY</a>
+                </div>
+            </div>
+            
+            <div class="featured-cars">
+                <h2>Featured Vehicles</h2>
+                <div class="car-grid">
+                    <!-- Cars will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Section - New Section Added -->
+        <section id="featured" class="section">
+            <div class="featured-container">
+                <div class="swiper vehicleSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/V250 silver side (2).png" alt="Mercedes V250">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/v250 black side (2).png" alt="Mercedes V250d">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/v300 side (2).png" alt="Mercedes V300">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/G20.png" alt="BMW G20">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/BMW GT SIDE.png" alt="BMW GT">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-container">
+                <span class="luxury-caption">Our Legacy of Excellence</span>
+                <h2>Redefining Luxury Mobility</h2>
+                
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p class="lead-text">Since 2024, we've curated the finest collection of luxury automobiles, serving distinguished clients who demand nothing but excellence.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature">
+                                <span class="feature-number">1+</span>
+                                <p>Years of Excellence</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-number">100+</span>
+                                <p>Elite Clients</p>
+                            </div>
+                            <div class="feature">
+                                <span class="feature-number">5+</span>
+                                <p>Luxury Vehicles</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mission-vision">
+                        <div class="mission-box">
+                            <h3>Our Mission</h3>
+                            <p>To deliver unparalleled automotive experiences through a meticulously maintained fleet of luxury vehicles, personalized service, and unwavering attention to detail.</p>
+                        </div>
+                        <div class="vision-box">
+                            <h3>Our Vision</h3>
+                            <p>To be the definitive choice for luxury car rentals, setting the global standard for excellence in premium automotive experiences.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-concierge-bell"></i>
+                        <h4>Personal Concierge</h4>
+                        <p>Dedicated luxury concierge available 24/7 to attend to your every need</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-plane-arrival"></i>
+                        <h4>Airport Services</h4>
+                        <p>Seamless airport transfers with meet-and-greet service at private terminals</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h4>Bespoke Journeys</h4>
+                        <p>Customized travel itineraries crafted to your preferences</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Premium Insurance</h4>
+                        <p>Comprehensive coverage ensuring worry-free travels</p>
+                    </div>
+                </div>
+
+                <div class="client-experience">
+                    <h3>The Ultimate Client Experience</h3>
+                    <div class="experience-timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-number">01</span>
+                            <h5>Personalized Consultation</h5>
+                            <p>Our luxury specialists work with you to understand your specific requirements</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-number">02</span>
+                            <h5>Vehicle Selection</h5>
+                            <p>Choose from our curated collection of prestigious vehicles</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-number">03</span>
+                            <h5>Bespoke Arrangement</h5>
+                            <p>We handle every detail, from delivery to special requests</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="timeline-number">04</span>
+                            <h5>Seamless Experience</h5>
+                            <p>Enjoy your journey with our 24/7 concierge support</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add this after the experience-timeline section -->
+                <div class="testimonials-section section-spacing">
+                    <h3 class="section-title">Client Experiences</h3>
+                    <div class="testimonials-grid">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                ★★★★★
+                            </div>
+                            <p class="testimonial-text">"An unparalleled luxury experience. The BMW GT was immaculate, and the service was beyond exceptional. Their attention to detail made my anniversary celebration truly memorable."</p>
+                            <div class="testimonial-author">
+                                <img src="images/James Wilson.jpeg" alt="James Wilson">
+                                <div class="author-info">
+                                    <h4>James Wilson</h4>
+                                    <p>CEO, Wilson Enterprises</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                ★★★★★
+                            </div>
+                            <p class="testimonial-text">"From the moment I inquired about the Mercedes V300 to the final return, every interaction was perfect. Their concierge service is simply outstanding."</p>
+                            <div class="testimonial-author">
+                                <img src="images/Lie Chen.jpg" alt="Sarah Chen">
+                                <div class="author-info">
+                                    <h4>Lie Chen</h4>
+                                    <p>Luxury Event Planner</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                ★★★★★
+                            </div>
+                            <p class="testimonial-text">"As someone who frequently rents luxury vehicles, I can confidently say this service is in a league of its own. The Mercedes V250 was delivered in pristine condition."</p>
+                            <div class="testimonial-author">
+                                <img src="images/Nichy Drake.jpg" alt="Michael Drake">
+                                <div class="author-info">
+                                    <h4>Nichy Drake</h4>
+                                    <p>International Entrepreneur</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                ★★★★★
+                            </div>
+                            <p class="testimonial-text">"Their airport pickup service in the BMW G20 made my business trip extraordinary. The professional chauffeur and immaculate vehicle exceeded all expectations."</p>
+                            <div class="testimonial-author">
+                                <img src="images/Emily Ndlovu.jpeg" alt="Elena Martinez">
+                                <div class="author-info">
+                                    <h4>Emily Ndlovu</h4>
+                                    <p>Fashion Director</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rent Section -->
+        <section id="rent" class="section">
+            <div class="booking-container">
+                <span class="luxury-caption">Reserve Your Experience</span>
+                <h2>Select Your Luxury Vehicle</h2>
+                
+                <div class="booking-grid">
+                    <div class="vehicle-selector">
+                        <div class="vehicle-cards">
+                            <div class="vehicle-card" data-vehicle="mercedes-v250">
+                                <img src="images/front silver.jpg" alt="Mercedes V250">
+                                <div class="vehicle-info">
+                                    <h3>Mercedes V250</h3>
+                                    <ul class="vehicle-features">
+                                        <li><i class="fas fa-users"></i> 7 Seats</li>
+                                        <li><i class="fas fa-cog"></i> Automatic</li>
+                                        <li><i class="fas fa-gas-pump"></i> Diesel</li>
+                                    </ul>
+                                    <p class="vehicle-price">R3500/day</p>
+                                </div>
+                            </div>
+
+                            <div class="vehicle-card" data-vehicle="mercedes-v250d">
+                                <img src="images/front black.jpg" alt="Mercedes V250d">
+                                <div class="vehicle-info">
+                                    <h3>Mercedes V250d</h3>
+                                    <ul class="vehicle-features">
+                                        <li><i class="fas fa-users"></i> 7 Seats</li>
+                                        <li><i class="fas fa-cog"></i> Automatic</li>
+                                        <li><i class="fas fa-gas-pump"></i> Diesel</li>
+                                    </ul>
+                                    <p class="vehicle-price">R3500/day</p>
+                                </div>
+                            </div>
+
+                            <div class="vehicle-card" data-vehicle="mercedes-v300">
+                                <img src="images/front v300.jpg" alt="Mercedes V300">
+                                <div class="vehicle-info">
+                                    <h3>Mercedes V300</h3>
+                                    <ul class="vehicle-features">
+                                        <li><i class="fas fa-users"></i> 7 Seats</li>
+                                        <li><i class="fas fa-cog"></i> Automatic</li>
+                                        <li><i class="fas fa-gas-pump"></i> Diesel</li>
+                                    </ul>
+                                    <p class="vehicle-price">R4000/day</p>
+                                </div>
+                            </div>
+
+                            <div class="vehicle-card" data-vehicle="bmw-f30">
+                                <img src="images/g20 front.jpg" alt="BMW F30">
+                                <div class="vehicle-info">
+                                    <h3>BMW G20</h3>
+                                    <ul class="vehicle-features">
+                                        <li><i class="fas fa-users"></i> 5 Seats</li>
+                                        <li><i class="fas fa-cog"></i> Automatic</li>
+                                        <li><i class="fas fa-gas-pump"></i> Petrol</li>
+                                    </ul>
+                                    <p class="vehicle-price">R2500/day</p>
+                                </div>
+                            </div>
+
+                            <div class="vehicle-card" data-vehicle="bmw-gt">
+                                <img src="images/gt front.jpg" alt="BMW GT">
+                                <div class="vehicle-info">
+                                    <h3>BMW GT</h3>
+                                    <ul class="vehicle-features">
+                                        <li><i class="fas fa-users"></i> 5 Seats</li>
+                                        <li><i class="fas fa-cog"></i> Automatic</li>
+                                        <li><i class="fas fa-gas-pump"></i> Petrol</li>
+                                    </ul>
+                                    <p class="vehicle-price">R2500/day</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="booking-form-container">
+                        <form id="bookingForm" class="booking-form">
+                            <div class="form-group">
+                                <label for="pickupLocation">Collection Location</label>
+                                <select id="pickupLocation" required>
+                                    <option value="">Select location</option>
+                                    <option value="Ormonder">Ormonde Goldreef City</option>
+                                    <option value="Midrand">Midrand Halfway House</option>
+                                    <option value="Meadowlands">Meadowlands Soweto</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="startDate">Collection Date</label>
+                                    <input type="date" id="startDate" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="endDate">Return Date</label>
+                                    <input type="date" id="endDate" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="selectedVehicle">Selected Vehicle</label>
+                                <input type="text" id="selectedVehicle" readonly>
+                            </div>
+
+                            <div class="booking-summary" id="bookingSummary">
+                                <h4>Booking Summary</h4>
+                                <div class="summary-details"></div>
+                                <div class="total-price"></div>
+                            </div>
+
+                            <button type="submit" class="btn-luxury">Confirm Reservation</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="gallery-container">
+                <span class="luxury-caption">Our Fleet</span>
+                <h2>Vehicle Gallery</h2>
+
+                <div class="vehicle-folders">
+                    <!-- Mercedes V250 -->
+                    <div class="car-folder" data-car="mercedes-v250">
+                        <div class="folder-icon">
+                            <img src="images/vehicles/mercedes-v250/cover.png" alt="Mercedes V250">
+                            <div class="folder-name">Mercedes V250</div>
+                        </div>
+                    </div>
+
+                    <!-- Mercedes V250d -->
+                    <div class="car-folder" data-car="mercedes-v250d">
+                        <div class="folder-icon">
+                            <img src="images/vehicles/mercedes-v250d/cover.jpg" alt="Mercedes V250d">
+                            <div class="folder-name">Mercedes V250d</div>
+                        </div>
+                    </div>
+
+                    <!-- Mercedes V300 -->
+                    <div class="car-folder" data-car="mercedes-v300">
+                        <div class="folder-icon">
+                            <img src="images/vehicles/mercedes-v300/cover.jpg" alt="Mercedes V300">
+                            <div class="folder-name">Mercedes V300</div>
+                        </div>
+                    </div>
+
+                    <!-- BMW G20 -->
+                    <div class="car-folder" data-car="bmw-g20">
+                        <div class="folder-icon">
+                            <img src="images/vehicles/bmw-g20/cover.jpg" alt="BMW G20">
+                            <div class="folder-name">BMW G20</div>
+                        </div>
+                    </div>
+
+                    <!-- BMW GT -->
+                    <div class="car-folder" data-car="bmw-gt">
+                        <div class="folder-icon">
+                            <img src="images/vehicles/bmw gt/cover.jpg" alt="BMW GT">
+                            <div class="folder-name">BMW GT</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gallery Modal -->
+                <div class="gallery-modal" id="galleryModal">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-content">
+                        <div class="modal-main">
+                            <img id="modalMainImage" src="" alt="">
+                        </div>
+                        <div class="modal-thumbnails"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="contact-container">
+                <span class="luxury-caption">Connect With Us</span>
+                <h2>Contact Information</h2>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>Sandton, Johannesburg</p>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>Phone</h3>
+                            <p>+27 123 456 789</p>
+                        </div>
+
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>info@mttransportation.co.za</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form id="contactForm" class="contact-form">
+                            <div class="input-group">
+                                <input type="text" id="name" required>
+                                <label for="name">Full Name</label>
+                            </div>
+
+                            <div class="input-group">
+                                <input type="email" id="email" required>
+                                <label for="email">Email Address</label>
+                            </div>
+
+                            <div class="input-group">
+                                <textarea id="message" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://wa.me/27123456789" class="whatsapp-btn" target="_blank" rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="MT Transportation Logo">
+                    <p>Luxury Transportation Solutions</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#rent">Rent</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-phone"></i> +27 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@mttransportation.co.za</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sandton, South Africa</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2025 MT Transportation. All Rights Reserved.</p>
+                <div class="legal-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <!-- Remove the terms link -->
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/booking.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
